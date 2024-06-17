@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:"Cormorant Upright", serif ;
+}
+.banner{
+margin-top: 5px; width: 100%;
+height: 650px;
+background-image : url("https://www.labellesociety.com/wp-content/uploads/2019/03/malte-wingen-381988-unsplash-1920x1280.jpg");
+/* background-position: center; */
+background-size:cover ;
+background-repeat: no-repeat;
+position: relative;
+}
+.content{
+  padding-top: 350px;
+  padding-left: 100px;
+}
+.image{
+
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+
+}
+.newimage{
+  width: 100%;
+  height: 200px;
+}
+
+.imgwhy{
+  width: 100%;
+  height:150px;
+}
+.imgic{
+  width: 30%;
+  height: 100px;
+}
+.imgicon{
+  width: 20%;
+  height: 70px;
+  padding: 10px;
+}
+.newimage:hover{
+  cursor: crosshair;
+  box-shadow: 2px 4px 6px 8px black ;
+}
